@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Piano JS</title>
+  <link rel="stylesheet" type="text/css" href="piano.css">
+</head>
+
+<body>
+
+  <div class="piano">
+
+    <div data-key="KeyA" class="key white">
+      <kbd>A</kbd>
+      <span class="sound">C</span>
+    </div>
+    <div data-key="KeyW" class="key black">
+      <kbd>W</kbd>
+      <span class="sound">C#</span>
+    </div>
+    <div data-key="KeyS" class="key white">
+      <kbd>S</kbd>
+      <span class="sound">D</span>
+    </div>
+    <div data-key="KeyE" class="key black">
+      <kbd>E</kbd>
+      <span class="sound">D#</span>
+    </div>
+    <div data-key="KeyD" class="key white">
+      <kbd>D</kbd>
+      <span class="sound">E</span>
+    </div>
+    <div data-key="KeyF" class="key white">
+      <kbd>F</kbd>
+      <span class="sound">F</span>
+    </div>
+    <div data-key="KeyT" class="key black">
+      <kbd>T</kbd>
+      <span class="sound">F#</span>
+    </div>
+    <div data-key="KeyG" class="key white">
+      <kbd>G</kbd>
+      <span class="sound">G</span>
+    </div>
+    <div data-key="KeyY" class="key black">
+      <kbd>Y</kbd>
+      <span class="sound">G#</span>
+    </div>
+    <div data-key="KeyH" class="key white">
+      <kbd>H</kbd>
+      <span class="sound">A</span>
+    </div>
+    <div data-key="KeyU" class="key black">
+      <kbd>U</kbd>
+      <span class="sound">Bb</span>
+    </div>
+    <div data-key="KeyJ" class="key white">
+      <kbd>J</kbd>
+      <span class="sound">B</span>
+    </div>
+    <div data-key="KeyK" class="key white">
+      <kbd>K</kbd>
+      <span class="sound">C1</span>
+    </div>
+  </div>
+
+
+  <audio data-key="KeyA" src="notes/C.mp3"></audio>
+  <audio data-key="KeyW" src="notes/Db.mp3"></audio>
+  <audio data-key="KeyG" src="notes/G.mp3"></audio>
+  <audio data-key="KeyY" src="notes/Ab.mp3"></audio>
+  <audio data-key="KeyH" src="notes/A.mp3"></audio>
+  <audio data-key="KeyU" src="notes/Bb.mp3"></audio>
+  <audio data-key="KeyJ" src="notes/B.mp3"></audio>
+  <audio data-key="KeyK" src="notes/C1.mp3"></audio>
+  <audio data-key="KeyS" src="notes/D.mp3"></audio>
+  <audio data-key="KeyD" src="notes/E.mp3"></audio>
+  <audio data-key="KeyF" src="notes/F.mp3"></audio>
+  <audio data-key="KeyT" src="notes/Gb.mp3"></audio>
+  <audio data-key="KeyE" src="notes/Eb.mp3"></audio>
+
+
+  <script src=" piano.js">
+  </script>
+</body>
+
+</html>
